@@ -1,0 +1,79 @@
+@keyframes rotateMagnifier{
+    from{
+        transform:rotateZ(0);
+    }
+    to{
+        transform:rotateZ(360deg);
+    }
+}
+/* @keyframes showText{
+    from{
+        right: 0;
+    }
+    to{
+        right: 235px;
+    }
+} */
+@keyframes boxCover{
+    from{
+        width: 0;
+        height: 0;
+        bborder-radius: 0 0% 0% 100%;
+    }
+    90%{
+        border-radius: 0 0% 0% 100%;
+    }
+    100%{
+        width: 100%;
+        height: 100%;
+        border-radius:0; 
+    }
+}
+@keyframes searchInput {
+    from{
+        width: 50%;
+    }
+    to{
+        width: 100%;
+    }
+}
+@keyframes showMenu {
+    from{
+        display: none;
+        width: 0%;
+    }
+    to{
+        display: block;
+        width: 70%;
+    }
+}
+/* @keyframes shakeElement{
+    0%{
+        bottom: 0;
+    }
+    20%{
+        top: 0;
+        bottom: -50px;
+    }
+    100%{
+        top: 0px;
+        bottom: 50px;
+    }
+    70%{
+        top: 250px;
+        bottom: 0px;
+    } 
+    100%{
+        top: 0px;
+        bottom: 0px;
+    }  
+    
+} */
+@keyframes rotateStars {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
